@@ -1,7 +1,11 @@
+:root {
+    --font: 'Andika New Basic', sans-serif;
+}
 h2 {
     text-align: center;
     padding: 5px;
     font-size: 25px;
+    font-family: var(--font);
 }
 
 p {
@@ -15,7 +19,8 @@ p {
     border: 1px solid; 
     padding: 20px;
     border-radius: 4px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: var(--font);
 }
 
 .cardContent {
